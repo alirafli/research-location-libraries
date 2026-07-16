@@ -12,6 +12,9 @@
   - [2.2 Dynamic Import (ssr: false)](#22-dynamic-import-ssr-false)
   - [2.3 Custom Icon (Wajib)](#23-custom-icon-wajib)
 - [3. Contoh Implementasi](#3-contoh-implementasi)
+  - [3.1 Single Marker — `Map.tsx`](#31-single-marker--maptsx)
+  - [3.2 Banyak Marker + Clustering — `ManyPinPoint.tsx`](#32-banyak-marker--clustering--manypinpointtsx)
+  - [3.3 Add Pin Point Interaktif — `AddPinPoint.tsx`](#33-add-pin-point-interaktif--addpinpointtsx)
 - [References](#references)
 
 ## 1. Instalation
