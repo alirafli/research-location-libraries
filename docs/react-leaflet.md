@@ -214,3 +214,5 @@ export default function Home() {
 
 ## References
 - [React Leaflet — Official Documentation](https://react-leaflet.js.org/)
+- DeepSeek V4 Flash Free Via OpenCode
+- Claude Sonnet 5 via OpenRouter
