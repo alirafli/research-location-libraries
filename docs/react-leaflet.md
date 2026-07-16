@@ -180,5 +180,34 @@ export default function Home() {
 }
 ```
 
+### 3.3 Add Pin Point Interaktif — `AddPinPoint.tsx`
+
+Komponen untuk **menambah/memilih/menghapus pin** langsung dari UI.
+
+**Fitur:**
+- Klik peta → pin baru tersimpan di state dan muncul di peta + daftar.
+- Klik pin (di peta atau di kartu daftar) → terpilih (ukuran icon membesar) + peta **fly-to** ke lokasi pin.
+- Hapus pin dari detail atau kartu.
+- **MarkerCluster** otomatis mengelompokkan pin yang berdekatan.
+- Tiap kartu menampilkan thumbnail static map (± fallback jika service down).
+
+**Komponen pembantu:**
+
+| Komponen | Fungsi |
+|----------|--------|
+| `ClickHandler` | Tangkap event `click` di peta via `useMapEvents` |
+| `MapFlyTo` | Gerakan peta ke koordinat target via `map.flyTo()` |
+| `PinCard` | Kartu daftar pin dengan thumbnail + tombol hapus |
+
+Panggil di halaman:
+
+```tsx
+const AddPinPoint = dynamic(() => import("./Components/AddPinPoint"), { ssr: false });
+
+export default function Home() {
+  return <AddPinPoint />;
+}
+```
+
 ## References
 - [React Leaflet — Official Documentation](https://react-leaflet.js.org/)
