@@ -109,7 +109,7 @@ Justifikasi:
 - Kebutuhan fitur **3D / WebGPU** atau visualisasi geospasial tingkat lanjut.
 
 ## 6. Step-By-Step Implementation  React Leaflet
-...
+Lihat panduan implementasi lengkap di [docs/react-leaflet.md](./docs/react-leaflet.md).
 
 ## References
 - [Leaflet.js — Official Documentation](https://leafletjs.com/index.html)
