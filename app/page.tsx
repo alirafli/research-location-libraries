@@ -13,7 +13,7 @@ export default function Home() {
       <h1>First Map Setup</h1>
       <Map />
 
-      <h1>Many Pin Points</h1>
+      <h1>Implementasi Clustering ketika Pin banyak dan berdempetan</h1>
       <ManyPinPoint />
     </>
   );
